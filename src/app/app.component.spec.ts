@@ -7,6 +7,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { MessagesComponent } from './messages/messages.component';
+import { HeroSearchComponent } from './hero-search/hero-search.component';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -16,7 +17,8 @@ describe('AppComponent', () => {
         DashboardComponent,
         HeroDetailComponent,
         HeroesComponent,
-        MessagesComponent
+        MessagesComponent,
+        HeroSearchComponent
       ],
       imports: [ AppRoutingModule, FormsModule ]
     }).compileComponents();
